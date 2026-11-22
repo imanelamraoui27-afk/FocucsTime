@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FocusTime - Study Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <h1>FocusTime</h1>
+        <p>Make every minute count.</p>
+    </header>
+
+    <main class="container">
+
+        <section class="timer-card">
+
+            <h2>Stay Focused</h2>
+            <p class="subtitle">Your personal study companion</p>
+
+            <div class="timer" id="timer">25:00</div>
+
+            <div class="mode-buttons">
+                <button id="focusBtn" class="mode active">Focus</button>
+                <button id="breakBtn" class="mode">Break</button>
+            </div>
+
+            <div class="controls">
+                <button id="startBtn" class="start">Start</button>
+                <button id="pauseBtn" class="pause">Pause</button>
+                <button id="resetBtn" class="reset">Reset</button>
+            </div>
+
+            <p class="sessions">
+                Completed Sessions: <span id="sessions">0</span>
+            </p>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 FocusTime. Stay productive.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
